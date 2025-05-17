@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Kobenerismo</title>
+    <style>
+      body {
+        background-color: #000;
+        color: #eee;
+        font-family: Arial, sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+      }
+
+      .cartao {
+        background-color: #000000;
+        padding: 30px;
+        border-radius: 20px;
+        text-align: center;
+        width: 300px;
+        box-shadow: 0 0 15px #000;
+      }
+
+      .cartao img {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        object-fit: cover;
+        margin-bottom: 15px;
+      }
+
+      .cartao h1 {
+        margin: 10px 0;
+        font-size: 24px;
+      }
+
+      .cartao p {
+        color: #ccc;
+        font-style: italic;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="cartao">
+      <img src="https://i.imgur.com/XhmLYOk.jpeg" alt="Profile Picture">
+      <h1>Kobener</h1>
+      <p>Desenvolvedor</p>
+    </div>
+  </body>
+</html>
